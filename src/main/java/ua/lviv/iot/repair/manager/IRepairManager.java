@@ -7,10 +7,10 @@ import java.util.List;
 
 public interface IRepairManager {
 
-	public List<RepairInstruments> sortByProducer(boolean ascending);
+    public List<RepairInstruments> sortByProducer(boolean ascending);
 
-	public List<RepairInstruments> searchByRating(RatingInstruments rating);
+    public List<RepairInstruments> searchByRating(RatingInstruments rating);
 
-	public List<RepairInstruments> sortByPrice(boolean ascending);
+    public List<RepairInstruments> sortByPrice(boolean ascending);
 
 }
