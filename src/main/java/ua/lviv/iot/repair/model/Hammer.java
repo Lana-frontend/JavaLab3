@@ -6,7 +6,7 @@ public class Hammer extends RepairInstruments {
     private int weight;
 
     public Hammer(int price, RatingInstruments lowRating, Fix rosette, int producer, int weight,
-        String handleMaterial) {
+            String handleMaterial) {
         super(price, lowRating, rosette, producer);
         this.weight = weight;
         this.handleMaterial = handleMaterial;

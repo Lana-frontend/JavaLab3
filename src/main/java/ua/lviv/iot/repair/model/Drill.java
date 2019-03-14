@@ -29,7 +29,7 @@ public class Drill extends RepairInstruments {
 
     @Override
     public String toString() {
-        return "Drill: drillType=" + drillType + ", power=" + power ;
+        return "Drill: drillType=" + drillType + ", power=" + power;
     }
 
 }

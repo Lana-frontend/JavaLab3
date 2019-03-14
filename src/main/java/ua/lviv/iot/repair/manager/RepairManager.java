@@ -9,9 +9,9 @@ import java.util.stream.Collectors;
 import ua.lviv.iot.repair.model.RatingInstruments;
 import ua.lviv.iot.repair.model.RepairInstruments;
 
-public class RepairManager  {
+public class RepairManager {
 
- private List<RepairInstruments> repairInstrumentsList = new ArrayList<>();
+    private List<RepairInstruments> repairInstrumentsList = new ArrayList<>();
 
     public void toAdd(RepairInstruments repairInstruments) {
         repairInstrumentsList.add(repairInstruments);
@@ -34,7 +34,7 @@ public class RepairManager  {
 
     public List<RepairInstruments> searchByRating(RatingInstruments rating) {
         return repairInstrumentsList.stream().filter(vessel -> vessel.getRating() == rating)
-            .collect(Collectors.toList());
+                .collect(Collectors.toList());
 
     }
 
@@ -44,7 +44,6 @@ public class RepairManager  {
         } else {
             Collections.sort(instruments, Comparator.comparing(RepairInstruments::getPrice));
         }
-
 
     }
 
