@@ -37,6 +37,7 @@ public class RepairManager {
                 .collect(Collectors.toList());
 
     }
+    
 
     public static void sortByPrice(List<RepairInstruments> instruments, boolean ascending) {
         if (ascending) {
