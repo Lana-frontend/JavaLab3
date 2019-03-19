@@ -2,7 +2,7 @@
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
-    version="6.8.0" timestamp="2019-03-14T08:39:13.006">
+    version="6.8.0" timestamp="2019-03-18T11:15:21.020">
 <file name="/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/Screws.java">
 <violation beginline="7" endline="7" begincolumn="48" endcolumn="56" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.repair.model" class="Screws" method="Screws" variable="lowRating" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
 Avoid unused constructor parameters such as 'lowRating'.
