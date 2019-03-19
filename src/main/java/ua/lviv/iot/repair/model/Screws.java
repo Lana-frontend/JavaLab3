@@ -12,6 +12,16 @@ public class Screws extends RepairInstruments {
         super(price, rating, repair, producer);
         this.size = producer;
     }
+    
+    public String getHeaders() {
+        return super.getHeaders() + ","
+                + "size";
+    }
+
+    public String toCSV() {
+        return super.toCSV() + ","
+                + this.size;
+    }
 
     public int getSize() {
         return size;

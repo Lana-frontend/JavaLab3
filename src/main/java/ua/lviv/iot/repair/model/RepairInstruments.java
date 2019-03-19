@@ -17,6 +17,20 @@ public class RepairInstruments {
         this.repair = repair;
         this.producer = producer;
     }
+    
+    public String getHeaders() {
+        return "price" + ","
+                + "rating" + ","
+                + "repair" + ","
+                + "producer";
+    }
+
+    public String toCSV() {
+        return this.price + ","
+                + this.rating + ","
+                + this.repair + ","
+                + this.producer;
+    }
 
     public int getPrice() {
         return price;

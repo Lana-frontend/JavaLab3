@@ -11,6 +11,18 @@ public class Drill extends RepairInstruments {
         this.power = j;
     }
 
+    public String getHeaders() {
+        return super.getHeaders() + ","
+                + "drillType" + ","
+                + "power";
+    }
+
+    public String toCSV() {
+        return super.toCSV() + ","
+                + this.drillType + ","
+                + this.power;
+    }
+    
     public Type getDrillType() {
         return drillType;
     }
