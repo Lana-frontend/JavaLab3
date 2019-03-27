@@ -1,2 +1,12 @@
-#Mon Mar 18 11:15:22 EET 2019
-configuration*?=8DFB255F157C803B054F0DBE78D0B42B9B2EBED0
+#Thu Mar 21 22:02:00 EET 2019
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/manager/IRepairManager.java=1552545539000
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/Drill.java=1553101665000
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/Type.java=1553101665000
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/RepairInstruments.java=1553101710000
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/Screws.java=1553101665000
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/manager/RepairManager.java=1553101665000
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/Main.java=1553101665000
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/RatingInstruments.java=1553101665000
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/Hammer.java=1553101665000
+configuration*?=D31160687DC394C56AD1B628EBC65D67FFBF424D
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/Fix.java=1553101665000

@@ -10,7 +10,7 @@ import ua.lviv.iot.repair.model.RatingInstruments;
 import ua.lviv.iot.repair.model.RepairInstruments;
 
 public class RepairManager {
-
+ 
     private List<RepairInstruments> repairInstrumentsList = new ArrayList<>();
 
     public void toAdd(RepairInstruments repairInstruments) {

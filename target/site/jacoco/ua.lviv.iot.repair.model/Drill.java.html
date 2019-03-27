@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="uk"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Drill.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">home</a> &gt; <a href="index.source.html" class="el_package">ua.lviv.iot.repair.model</a> &gt; <span class="el_source">Drill.java</span></div><h1>Drill.java</h1><pre class="source lang-java linenums">package ua.lviv.iot.repair.model;
+
+public class Drill extends RepairInstruments {
+
+    private Type drillType;
+    private double power;
+
+    public Drill(int price, RatingInstruments lowRating, Fix rosette, int producer, Type electronic, int j) {
+<span class="nc" id="L9">        super(price, lowRating, rosette, producer);</span>
+<span class="nc" id="L10">        this.drillType = electronic;</span>
+<span class="nc" id="L11">        this.power = j;</span>
+<span class="nc" id="L12">    }</span>
+
+    public String getHeaders() {
+<span class="nc" id="L15">        return super.getHeaders() + &quot;,&quot;</span>
+                + &quot;drillType&quot; + &quot;,&quot;
+                + &quot;power&quot;;
+    }
+
+    public String toCSV() {
+<span class="nc" id="L21">        return super.toCSV() + &quot;,&quot;</span>
+                + this.drillType + &quot;,&quot;
+                + this.power;
+    }
+    
+    public Type getDrillType() {
+<span class="nc" id="L27">        return drillType;</span>
+    }
+
+    public void setDrillType(Type drillType) {
+<span class="nc" id="L31">        this.drillType = drillType;</span>
+<span class="nc" id="L32">    }</span>
+
+    public double getPower() {
+<span class="nc" id="L35">        return power;</span>
+    }
+
+    public void setPower(double power) {
+<span class="nc" id="L39">        this.power = power;</span>
+<span class="nc" id="L40">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc" id="L44">        return &quot;Drill: drillType=&quot; + drillType + &quot;, power=&quot; + power;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

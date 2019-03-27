@@ -12,17 +12,7 @@ public class Hammer extends RepairInstruments {
         this.handleMaterial = handleMaterial;
     }
     
-    public String getHeaders() {
-        return super.getHeaders() + ","
-                + "weight" + ","
-                + "handleMaterial";
-    }
-
-    public String toCSV() {
-        return super.toCSV() + ","
-                + this.weight + ","
-                + this.handleMaterial;
-    }
+    
 
     public String getHandleMaterial() {
         return handleMaterial;
