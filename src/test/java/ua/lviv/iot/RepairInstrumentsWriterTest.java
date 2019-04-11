@@ -49,22 +49,15 @@ class repairsWriterTest {
       lines = lines.substring(0, lines.length() - 1);
       System.out.println(lines);
       Assertions.assertEquals(
-          "pricePerUnit,currency,riskLevel,trend,duration,emitent,owner\n"
-          + "300.0,$,LOW,UP,0.0,Ukraine,I\n"
-          + "pricePerUnit,currency,riskLevel,trend,duration,emitent,owner,"
-          + "company,percentOfCompany\n"
-          + "2000.0,₴,MEDIUM,DOWN,100.0,Russia,I,Roshen,0.5\n"
-          + "pricePerUnit,currency,riskLevel,trend,duration,emitent,owner,asset,secutity\n"
-          + "10.0,€,HIGH,UP,3000.0,Belarus,I,null,Security: \n"
-          + "[\n"
-          + "  pricePerUnit,currency,riskLevel,trend,duration,emitent,owner\n"
-          + "  0.0,null,null,null,0.0,null,null\n"
-          + "]\n"
-          + "\n"
-          + "pricePerUnit,currency,riskLevel,trend,duration,emitent,owner,asset\n"
-          + "0.0,$,DANGER,UP,0.0,Moldova,I,house\n"
-          + "pricePerUnit,currency,riskLevel,trend,duration,emitent,owner\n"
-          + "20.0,$,LOW,DOWN,10.0,Ukraine,I",lines);
+        
+           "price,rating,repair,producer\n" + 
+          "300,HIGH_RATING,DOOR,9\n" + 
+          "price,rating,repair,producer\n" + 
+          "155,LOW_RATING,DOOR,5\n" + 
+          "price,rating,repair,producer,drillType,power\n" + 
+          "13,HIGH_RATING,ROSETTE,3,ELECTRONIC,6.0\n" + 
+          "price,rating,repair,producer,size\n" + 
+          "150,MIDLE_RATING,ROSETTE,88,88",lines);
     } finally {
       System.out.println();
     }
