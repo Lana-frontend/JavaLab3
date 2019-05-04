@@ -1,0 +1,8 @@
+price,rating,repair,producer
+300,HIGH_RATING,DOOR,9
+price,rating,repair,producer
+155,LOW_RATING,DOOR,5
+price,rating,repair,producer,drillType,power
+13,HIGH_RATING,ROSETTE,3,ELECTRONIC,6.0
+price,rating,repair,producer,size
+150,MIDLE_RATING,ROSETTE,88,88
