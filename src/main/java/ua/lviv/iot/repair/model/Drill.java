@@ -1,7 +1,10 @@
 package ua.lviv.iot.repair.model;
 
-public class Drill extends RepairInstruments {
 
+
+
+public class Drill extends RepairInstruments {
+   
     private Type drillType;
     private double power;
 

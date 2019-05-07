@@ -1,8 +1,11 @@
-/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/manager/RepairManager.java
-/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/Drill.java
 /Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/RepairInstruments.java
-/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/RatingInstruments.java
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/Lab8Application.java
 /Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/Fix.java
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/manager/RepairInstrumentsWriter.java
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/manager/RepairManager.java
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/manager/RepairRepository.java
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/Drill.java
+/Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/RatingInstruments.java
 /Users/mysomer/eclipse-workspace/Repair/src/main/java/Main.java
 /Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/manager/IRepairManager.java
 /Users/mysomer/eclipse-workspace/Repair/src/main/java/ua/lviv/iot/repair/model/Screws.java

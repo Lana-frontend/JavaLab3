@@ -1,9 +1,13 @@
 package ua.lviv.iot.repair.model;
 
+
+
 public class RepairInstruments {
 
     private int price;
+  
     private RatingInstruments rating;
+
     private Fix repair;
     private int producer;
 
