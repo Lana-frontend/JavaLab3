@@ -1,5 +1,8 @@
 package ua.lviv.iot.repair.model;
 
+
+
+
 public class Screws extends RepairInstruments {
 
     private int size;
