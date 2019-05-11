@@ -5,20 +5,18 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
-@Entity()
-@Table(name = "hammer")
+
+@Entity(name = "hammer")
 public class Hammer extends RepairInstruments {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private Integer id;
     
-    @Column(name = "handleMaterial")
+    @Column
     private String handleMaterial;
-    
-    @Column(name = "weight")
+    @Column
     private int weight;
     
     public Hammer() {
@@ -56,17 +54,17 @@ public class Hammer extends RepairInstruments {
         this.weight = weight;
     }
     
-    public long getId() {
+    public Integer getId() {
         return id;
     }
-
-    public void setId(long id) {
+    
+    public void setId(Integer id) {
         this.id = id;
     }
 
     @Override
     public String toString() {
-        return "Hammer: handleMaterial=" + handleMaterial + ", weight=" + weight;
+        return  super.toString()  + "Hammer: handleMaterial=" + handleMaterial + ", weight=" + weight;
     }
 
 }
